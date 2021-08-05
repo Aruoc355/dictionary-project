@@ -1,0 +1,9 @@
+.container {
+  background: url("https://upload.wikimedia.org/wikipedia/commons/9/94/Reflection_in_a_soap_bubble_edit.jpg");
+  display: block;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+footer {
+  text-align: center;
+}
