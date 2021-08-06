@@ -32,7 +32,7 @@ export default function App() {
           </a>{" "}
           and hosted on{" "}
           <a
-            href="https://app.netlify.com/sites/frosty-euclid-ae1756/deploys/"
+            href="https://frosty-euclid-ae1756.netlify.app/"
             target="_blank"
             rel="noreferrer"
           >
