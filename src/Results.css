@@ -2,3 +2,6 @@
   color: wheat;
   margin-top: 20px;
 }
+h2 {
+  text-transform: capitalize;
+}
