@@ -27,7 +27,7 @@ export default function Dictionary() {
       <div className="Container">
         <form className="form-control" onSubmit={search}>
           <div className="row">
-            <div className="col-9">
+            <div className="col-7">
               <input
                 type="search"
                 onChange={handleKeywordChange}
@@ -42,6 +42,8 @@ export default function Dictionary() {
               />
             </div>
           </div>
+
+          <p>Suggested words: daffodil, sun, sky...</p>
         </form>
         <Results results={results} />
       </div>

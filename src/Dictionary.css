@@ -7,6 +7,11 @@
   background-color: wheat;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
+form {
+  display: block;
+  margin-left: 60px;
+  width: 600px;
+}
 .Container {
   max-width: 60%;
   display: block;
@@ -16,4 +21,9 @@
 .btn {
   background-color: powderblue;
   color: slategray;
+}
+p {
+  color: slategray;
+  font-size: 14px;
+  text-align: center;
 }

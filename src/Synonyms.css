@@ -1,0 +1,8 @@
+strong {
+  text-align: left;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 10px;
+}
