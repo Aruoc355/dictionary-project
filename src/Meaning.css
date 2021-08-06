@@ -2,3 +2,6 @@
   color: wheat;
   text-align: left;
 }
+.Meaning h3 {
+  text-transform: capitalize;
+}
