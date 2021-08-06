@@ -5,6 +5,10 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
+        <div className="Header">
+          {" "}
+          <h1>Dictionary</h1>
+        </div>
         <main className="Main">
           <Dictionary />
         </main>

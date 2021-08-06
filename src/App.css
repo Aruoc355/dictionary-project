@@ -4,6 +4,12 @@
   margin: 0 auto;
   border-radius: 20px;
   padding: 20px;
+  opacity: 0.8;
+}
+
+h1 {
+  color: wheat;
+  text-align: center;
 }
 
 footer {
