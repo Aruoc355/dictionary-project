@@ -1,8 +1,14 @@
-.Meaning p {
+.Meaning .definition {
   color: wheat;
   text-align: left;
+  text-transform: capitalize;
 }
 .Meaning h3 {
   text-transform: capitalize;
   padding: 10px;
+  margin-left: -10px;
+}
+
+.Meaning .example {
+  text-transform: capitalize;
 }

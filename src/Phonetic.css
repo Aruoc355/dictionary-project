@@ -4,4 +4,11 @@
   padding: 5px;
   width: 65px;
   margin-bottom: 10px;
+  border-radius: 20px;
+}
+
+.Phonetic .btn a:hover {
+  background-color: hsl(342, 79%, 40%);
+  color: powderblue;
+  transition: all, 200ms ease-in-out;
 }
