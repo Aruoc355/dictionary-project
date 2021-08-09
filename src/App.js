@@ -9,6 +9,9 @@ export default function App() {
           {" "}
           <h1>Dictionary</h1>
         </div>
+        <div className="Sub-header">
+          What word do you want to look up today?
+        </div>
         <main className="Main">
           <Dictionary defaultKeyword="Ocean" />
         </main>

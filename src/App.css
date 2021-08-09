@@ -27,3 +27,9 @@ footer {
 a {
   color: #b71646;
 }
+.App .Sub-header {
+  color: wheat;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
