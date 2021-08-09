@@ -1,6 +1,3 @@
-strong {
-  text-align: left;
-}
 ul {
   list-style-type: none;
   padding: 0;
@@ -10,4 +7,5 @@ ul {
   display: inline-block;
   padding-right: 15px;
   font-size: 14px;
+  font-style: italic;
 }
