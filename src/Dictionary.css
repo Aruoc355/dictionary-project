@@ -2,28 +2,29 @@
   display: block;
   margin: auto;
   margin-top: 20px;
+  padding: 15px 30px;
   text-align: center;
   border-radius: 8px;
   background-color: wheat;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
-form {
-  display: block;
-  margin-left: 60px;
-  width: 600px;
-}
+
 .Container {
   max-width: 60%;
   display: block;
   margin: 0 auto;
   border-radius: 30px;
 }
-.btn {
-  background-color: powderblue;
-  color: slategray;
-}
+
 p {
-  color: slategray;
+  color: slategrey;
   font-size: 14px;
-  text-align: center;
+  text-align: left;
+  padding: 10px;
+}
+.Dictionary input {
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  padding: 7px;
 }

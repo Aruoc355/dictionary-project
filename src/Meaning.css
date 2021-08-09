@@ -4,4 +4,5 @@
 }
 .Meaning h3 {
   text-transform: capitalize;
+  padding: 10px;
 }
