@@ -8,7 +8,7 @@ export default function Dictionary(props) {
   let [keyword, setKeyword] = useState(props.defaultKeyword);
   let [results, setResults] = useState("null");
   let [loaded, setLoaded] = useState(false);
-  let [photos, setPhotos] = useState("null");
+  let [photos, setPhotos] = useState([]);
 
   function handleDictionaryResponse(response) {
     setResults(response.data[0]);
@@ -24,7 +24,7 @@ export default function Dictionary(props) {
 
     let pexelsApiKey =
       "563492ad6f9170000100000140d65873c084468094de64f3b6a829e4";
-    let pexelsApiUrl = `https://api.pexels.com/v1/search?query=${keyword}&per_page=6`;
+    let pexelsApiUrl = `https://api.pexels.com/v1/search?query=${keyword}&per_page=9`;
     let headers = { Authorization: `Bearer ${pexelsApiKey}` };
     axios.get(pexelsApiUrl, { headers: headers }).then(handlePexelsResponse);
   }
